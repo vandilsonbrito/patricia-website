@@ -8,10 +8,16 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+        'hero': "url('./public/fotos-patricia/patricia1.webp')",
+        'hero-mobile': "url('./public/fotos-patricia/patricia1-medium.webp')",
+        'img-about': "url('./public/fotos-patricia/patricia2.png')",
+     },
+     colors: {
+        primary: '#a140aa1f',
+        secundary: '#a140aa28',
+        work: '#ebd5eb',
+        button: '#51056b'
+     }
     },
   },
   plugins: [],

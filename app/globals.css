@@ -2,32 +2,118 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.swiper-social-proof-imgs {
+  display: block;
+  margin: 0 auto;
+  @apply w-[100%];
+
+}
+.social-proof-imgs {
+  @apply w-60
+}
+
+  
+.swiperSlide {
+  @apply w-full h-fit flex flex-col items-center gap-5 py-10 ;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #000;
+  margin-bottom: 0px;
+}
+
+.swiper-pagination-bullet {
+  background: #000;
+}
+
+.btn-cta {
+  @apply text-xl sm:text-2xl font-semibold tracking-wider px-9 py-4 rounded-full text-white  hover:bg-[#333592] hover:shadow-lg active:scale-[0.98] transform ease-in-out;
+}
+
+
+.footer a {
+  text-decoration: underline;
+  color: blue;
+}
+
+.profile-picture {
+  position: relative;
+  background-image: url('../public/fotos-patricia/img-hero-desktop.webp');
+  background-size: cover;
+  background-position: center right;
+  border: 5px solid #a140aa27;
+  border-radius: 50%;
+  /* animation: morphing 7s infinite alternate; */
+  border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  transition: all 1s ease-in-out;
+  z-index: 0;
+}
+
+.profile-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a140aa1f;
+  border-radius: 50%;
+  border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  z-index: 1; 
+}
+
+.animation1 {
+  animation: reveal1 1ms ease-in-out both;
+  animation-timeline: view();
+  animation-range: entry 40% cover 20%;
+}
+
+@keyframes reveal1 {
+  0% {
+    opacity: 0;
+    clip-path: inset(10% 20% 10% 20%);
+    transform: translateY(-50px);
+  }
+
+  50% {
+    opacity: 0.5;
+    clip-path: inset(0% 0% 0% 0%);
+    transform: translateY(-25px);
+  }
+
+  100% {
+    opacity: 1;
+    clip-path: inset(0% 0% 0% 0%);
+    transform: translateY(0px);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.animation2 {
+  animation: reveal2 1ms ease-in-out both;
+  animation-timeline: view();
+  animation-range: entry 25% cover 50%;
 }
+@keyframes reveal2 {
+  0% {
+    opacity: 0;
+    clip-path: inset(45% 20% 45% 20%);
+    transform: translateX(-50px);
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  50% {
+    opacity: 0.5;
+    clip-path: inset(0% 0% 0% 0%);
+    transform: translateX(-25px);
+  }
+
+  100% {
+    opacity: 1;
+    clip-path: inset(0% 0% 0% 0%);
+    transform: translateX(0px);
   }
 }
