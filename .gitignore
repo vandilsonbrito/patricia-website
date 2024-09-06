@@ -18,6 +18,9 @@
 _redirects
 robots.txt
 sitemap.xml
+public/fotos-patricia
+public/img-design
+
 
 # misc
 .DS_Store

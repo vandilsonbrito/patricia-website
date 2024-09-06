@@ -14,9 +14,6 @@ export default function Footer() {
                 <li className="hover:text-[#a44fd4]">
                     <Link href='/youtube'>Youtube</Link>
                 </li>
-                <li className="hover:text-[#a44fd4]">
-                    <Link href='/contato'>Contato</Link>
-                </li>
             </ul>
             <p className='text-xs lg:text-sm mt-8'>&copy; Todos os direitos reservados a <a className='hover:underline' href="https://www.instagram.com/profa.patriciacruz/" target="_blank" rel="noopener noreferrer">profa.patriciacruz</a></p>
             <p className='text-xs my-2'>Desenvolvido por <a href="https://www.linkedin.com/in/vandilson-brito-b791b3216/" target="_blank" rel="noopener noreferrer" className='hover:underline'>Vandilson Brito</a></p>
