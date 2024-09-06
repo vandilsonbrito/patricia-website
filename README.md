@@ -1,25 +1,25 @@
 # Profa. Patrícia Cruz Website
 
-A Professora Patrícia Cruz é mestre em Ciências e atua como mentora acadêmica. O website é um espaço para a professora apresentar seu trabalho e lincar com suas redes sociais, onde interage com seu público. Além, de vender produtos digitais e divulgar o seu canal do YouTube.
+A Professora Patrícia Cruz é mestre em Ciências e atua como mentora acadêmica. O website é um espaço para a professora apresentar seu trabalho e fazer um CTA para o seu instagram, onde interage com seu público e fecha mentorias. Além, de divulgar o seu canal do YouTube.
 
 <h2>Technologies</h2>
 
-- React
-- React-Router-Dom
+- React.js
+- Next.js
 - Tailwind CSS
-- YouTube API
+- AOS
 - Swiper JS
 
 
 <h2>Acquired Experience</h2>
 
-Pude praticar Desing (UI/UX) fazendo todo o mockup no Figma, roteamento de páginas com a biblioteca react-router-dom, integrar a API do Youtube mostrando o canal da Professora  na plataforma YouTube. Além de usar o StaticForms para a professora receber e-mails em que o usuário preenche os dados diretamente da página de contato.
-
-Pratiquei SEO com a lib 'react-helmet-async' ajudando na meta tag da descrição de cada página, incorporei o site na busca do Google o 'google-site-verification' e fiz todo o processo de compra de domínio e configuração de DNS.
+Pude praticar Desing (UI/UX) fazendo todo o mockup no Figma, desenvolver pensamentos sobre marketing, como CTA e social proof. Foi feito as melhores práticas para SEO utilizando o Next.js com a incorporação de metadata (title, description, openGraph, viewport, AMP and schema) e usando imagens otimizadas no formato webp. 
+O site foi introduzido na busca do Google utilizando o 'google-site-verification', com preocupação no desempenho, SEO, acessibilidade e práticas recomendadas pelo Google (PageSpeed).
+Fiz todo o processo de compra de domínio e configuração de DNS.
 
 <h2>Exibition</h2>
 
-https://github.com/vandilsonbrito/patricia-website/assets/108373095/061b5a91-1c0b-4607-b70f-24ae8e058b93
+https:https://asset.cloudinary.com/ds7cszkkx/11ee1628b8bf7a83b10e520fe14bc034
 
 <h2>Demo</h2>
 
