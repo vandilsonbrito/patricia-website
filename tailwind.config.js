@@ -13,7 +13,7 @@ module.exports = {
         'img-about': "url('./public/fotos-patricia/patricia2.png')",
      },
      colors: {
-        primary: '#a140aa1f',
+        primary: '#d665e01c',
         secundary: '#a140aa28',
         work: '#ebd5eb',
         button: '#51056b'
