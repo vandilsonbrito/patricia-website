@@ -19,7 +19,8 @@ Fiz todo o processo de compra de domínio e configuração de DNS.
 
 <h2>Exibition</h2>
 
-https:https://asset.cloudinary.com/ds7cszkkx/11ee1628b8bf7a83b10e520fe14bc034
+![Profa. Patrícia Cruz Website](https://github.com/user-attachments/assets/2ea8a119-9e9e-48a1-9f16-d4df4f736a70)
+
 
 <h2>Demo</h2>
 
